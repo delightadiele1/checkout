@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e1e1e1;
+}
+
+/* 
+  ///////////////////////////
+  //////////////////////////
+  Header and navigation style
+
+*/
+
+header {
+  padding: 0 .9rem
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(68, 61, 61);
+}
+
+.nav-logo {
+  float: left;
+}
+
+.nav-logo img {
+  width: 17%;
+  height: 17%;
+}
+
+.logo-text {
+  vertical-align: 80%;
+  font-weight: bold;
+  font-size: 1.7rem;;
+}
+
+.nav{
+  float: right;
+  display: flex;
+}
+
+.nav-links {
+  margin-top:0;
+  margin-top: 14px;
+}
+
+.link {
+  display: inline-block;
+  padding: 12px;
+  
+}
+
+.link:hover {
+  border: 1px solid rgb(68, 61, 61);
+  border-radius: 5px;
+  transition: all 1s;
+}
+
+.account {
+  margin-top: 14px;
+  margin-left:14px; 
+}
+
+.account button {
+  padding: 12px;
+  background-color: #e1e1e1;
+  border: 1px solid rgb(68, 61, 61);
+  border-radius: 5px;
+
+}
+
+.line {
+  clear: both;
+   border-top: gray;
+}
+
+
+/* 
+  ///////////////////////////
+  //////////////////////////
+  section style
+  Checkout section
+*/
+
+section {
+  margin: 70px auto;
+  width: 60%;
+}
+
+.container {
+  display: flex;
+  box-shadow: -7px 7px 30px rgb(168, 163, 163);
+}
+
+
+.checkout {
+  width: 65%;
+  background-color: #ffffff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.title {
+  font-size:xx-large;
+  color: #000
+}
+
+.check {
+  padding: 1.4rem 2rem 
+}
+
+.description {
+  margin-top: 0;
+  color: #000;
+  font-size:large;
+}
+
+label {
+  font-size:small;
+  color: rgb(71, 69, 69);
+}
+
+.name-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+#fname , #lname, #email, #card {
+  padding: 0.5rem 1.2rem;
+  background-color: rgb(224, 219, 219);
+  border: none;
+  border-radius: 4px;
+}
+
+.email {
+  width: 80%;
+  padding-top: 10px;
+}
+#email {
+  width: 100%;
+}
+
+#card{
+  width: 100%
+}
+
+.submit {
+  text-align: center;
+}
+
+.submit-btn {
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  padding: .8rem 1.2rem;
+  color: white;
+  background-color: #028e7b;
+}
+
+.help {
+  font-size: small;
+  width: 70%;
+  margin: 15px auto;
+  text-align: left;
+}
+
+.support {
+  color: #857584;
+}
+
+.contact {
+  text-decoration: underline;
+}
+
+.powered {
+  background-color: #aab1b7;
+  color:#fff;
+  border-radius: 2px;
+  font-size:.5rem;
+  padding: 4px;
+}
+
+.stripe {
+  font-size:.8rem;
+  color: #ffffff;
+}
+
+.num {
+  font-size:1.6rem !important;
+  vertical-align: -10%;
+}
+
+.bi {
+  color: #3a80db;
+  font-size:1.2rem;
+}
+
+/* 
+ ///////////////////////////
+  //////////////////////////
+  Freelance Section
+
+*/
+
+.freelancer {
+  width: 35%;
+  padding: 1.5rem 2.4rem;
+  background-color: #3a80db;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: .9rem;
+}
+
+.free-title {
+  font-size: large;
+  margin: 5px 0
+}
+
+.price {
+  font-size: 3rem;
+  font-family:serif
+}
+
+.price sup {
+  font-size: medium;
+}
+
+.renew {
+  margin-top: 5px;
+ 
+}
+
+.box {
+  margin-bottom: 33px;
+}
+
+.bi-check-circle {
+  color:#e5e6e7 !important;
+  font-size:1rem;
+  
+}
+
+.agency {
+  text-decoration:underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #e5e6e7ab;
+  text-decoration-skip-ink: none;
+  
+}
+
+.profile {
+  width : 2rem;
+  height: 2rem;
+  vertical-align: -15px;
+  border-radius: 50%;
+}
+
+/* 
+////////////////////
+///////////////////
+footer style
+*/
+
+footer {
+  margin: 2rem 0;
+  text-align: center;
+  color: gray;
+  font-size: .8rem;
+}
+
+footer a {
+  text-decoration: none;
+  color:#687f9c
+}

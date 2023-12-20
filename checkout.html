@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="checkout.css">
+  <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+  <title>Document</title>
+  <!-- Option 1: Include in HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-logo">
+        <a href="checkout.html"><img src="logo3.jpg" alt="wp pusher"><span class="logo-text">WP Pusher</span></a>
+      </div>
+      <div class="nav">
+        <ul class="nav-links">
+          <li class="link"><a href="#">Download</a></li>
+          <li class="link"><a href="#">Learn more</a></li>
+          <li class="link"><a href="#">Pricing</a></li>
+          <li class="link"><a href="#">Help</a></li>
+        </ul>
+        <div class="account">
+          <button>Account</button>
+        </div>
+      </div> 
+    </nav>
+    <hr class="line">
+  </header>
+  <section>
+    <div class="container">
+      <div class="checkout">
+        <div class="title check">Checkout</div>
+        <hr class="line">
+        <div class="bio-data check">
+          <p class="description"><i class="num bi bi-1-circle"></i> Your Basic Information</p>
+          <form action="#">
+            <div class="name-box">
+              <div>
+                <label for="fname">First Name</label><br>
+                <input id="fname" type="text" placeholder="Jane">
+              </div>
+              <div>
+                <label for="lname">Last Name</label><br>
+                <input id="lname" type="text" placeholder="Doe">
+              </div>
+            </div>
+            <div class="email">
+              <label for="email">Email</label><br>
+              <input id="email" type="text" placeholder="janedoe@example.com">
+            </div>
+          </form>
+        </div>
+        <hr class="line">
+        <div class="payment-info check">
+          <p class="description"><i class="num bi bi-2-circle"></i> Your payment Information</p>
+          <form action="#">
+            <div>
+              <label for="card">Credit Card</label><br>
+              <input id="card" type="text" placeholder="Card Number                                                                    MM / YY    CVC">
+            </div>
+          </form>
+        </div>
+        <hr class="line">
+        <div class="submit check">
+          <button class="submit-btn">Buy WP Pusher</button>
+          <p class="help"><i class="bi bi-question-circle"></i> <b>Need any help?</b> <span class="support">Don't hesitate to <span class="contact">contact &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span><br>&nbsp&nbsp&nbsp&nbsp&nbsp support!</span></p>
+          <div class="by">
+            <span class="powered">Powered by <span class="stripe">stripe</span></span></div>
+        </div>
+      </div>
+      <div class="freelancer">
+        <p class="free-title">Freelancer</p>
+        <div>
+          <span class="price"><sup>$ </sup>99</span> / <b>year</b>
+          <p class="box renew"><i>Automatically renews <br>after 1 year</i></p>
+        </div>
+        <div class="box">
+          <p><i class="bi bi-check-circle"></i> Use on <b>5</b> client sites</p>
+          <p><i class="bi bi-check-circle"></i> Private repositories</p>
+          <p><i class="bi bi-check-circle"></i> Email support</p>
+        </div>
+        <div class="box">
+          <p>Need <b>20</b> client sites?</p>
+          <p><b class="agency">Switch to the Agency plan</b>.</p>
+        </div>
+        <hr class="box line">
+        <div>
+          <p>
+            <i>FTP is horrible to deal with.
+              <b>WP Pusher</b> solves that issue,
+              and the customer support is awesome!
+            </i>
+          </p>
+          <p>
+            <img class="profile" src="portfolio.jpg" alt=""> &nbsp&nbsp <b>Kirk Beard</b>
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      &copy; 2018 WP Pusher IVS . <a href="#">Terms of Service</a>
+    </footer>
+  </section>
+</body>
+</html>
